@@ -268,7 +268,6 @@ div.group3 > div.right-column{
 div.group3 > div.right-column > div > div.fish {
     display: block;
     float: right;
-
     margin-top: 1.45em;
     text-align: end;
 }
@@ -305,13 +304,7 @@ div.group3 > div.right-column > div > div.fish {
 	top: 0.5em;
 	cursor: pointer;
 }
-#call_me > form > i{
-	position: absolute;
-	right: 0.5em;
-	top: 0.5em;
-	cursor: pointer;
-}
-#menu:after, #call_me:after, #product:after {
+#menu:after, #call_me:after, #airjordan1:after {
   position: fixed;
   content: "";
   top: 0;
@@ -322,7 +315,7 @@ div.group3 > div.right-column > div > div.fish {
   z-index: -2;
 }
 
-#menu:before, #call_me:before, #product:before {
+#menu:before, #call_me:before, #airjordan1:before {
   position: absolute;
   content: "";
   top: 0;
@@ -394,7 +387,6 @@ body > div.bg > div.beige_bg > div.shop_group > hr{
 	flex-direction: row;
     flex-wrap: nowrap;
 	margin: 1em 2em;
-	width: fit-content;
 	text-align: center;
 	font-size: 1.5vw;
 	
@@ -415,24 +407,17 @@ body > div.bg > div.beige_bg > div.shop_group > hr{
     background: #f2eddd;
 	padding: 1em;
 	margin:0;
-	width: 100%;
 }
 .popup_group{
 	display: flex;
-	
 }
-#product{
-	margin: 0 5% 0 5%;
-}
-#product > div.popup_group > img {
+#airjordan1 > div.popup_group > img {
     margin: 20px;
     width: 30%;
     height: 10%;
-	box-shadow: 0 0 20px 0px #00000094;
 }
-#product > div.popup_group > .right-column {
+#airjordan1 > div.popup_group > .right-column {
     margin-left: 15%;
-	margin-top: 2.5%;
 }
 .description{
 	font-size:1vw;
@@ -448,7 +433,6 @@ body > div.bg > div.beige_bg > h5{
 	.footer-box > a > img {
     width: 120%;
 }
-
 .toshoprect:hover {
     width: 120px;
     transition: 1s ease;
@@ -457,13 +441,6 @@ body > div.bg > div.beige_bg > h5{
 	transform: scale(1.05);
 	transition: 1s ease;
 }
-#call_me > form{
-	z-index: -10;	
-}
-#call_me > form > div > button > i{
-	z-index: -1;
-}
-
 @media (max-width:1080px){
 	.fish, .air-jordan, .links, div.logo > div:nth-child(1), div.logo > div:nth-child(3), div.group3 > div.right-column > div > div.fish, body > div.bg > div.beige_bg > div:nth-child(6) > div.left-column, body > div.bg > div.beige_bg > hr{
 		display:none;
@@ -507,7 +484,6 @@ body > div.bg > div.beige_bg > h5{
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 	    width: 3.6em;
-		
 
 }
 	#container > div > div.toshoprect {
@@ -623,12 +599,10 @@ body > div.bg > div.beige_bg > h5{
     font-weight: 400;
 }
 	.popup_group {
-	
     display: block;
 }
-	#product > div.popup_group > .right-column {
+	#airjordan1 > div.popup_group > .right-column {
     margin-left: 0;
-	
 }
 	.description {
     font-size: 30px;
